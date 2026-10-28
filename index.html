@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOODPICKER ITF</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">FOODPICKER ITF</div>
+    </nav>
+
+    <!-- ส่วนแสดงผลข้อมูลอาหาร -->
+    <main class="container">
+        <div class="food-card">
+            <img id="food-img" src="https://images.unsplash.com/photo-1562967914-608f82629710?w=500" alt="รูปอาหาร">
+            <h2 id="food-name">ข้าวมันไก่</h2>
+            <p id="food-desc">ข้าวมันหอมนุ่ม เสิร์ฟพร้อมไก่ต้มน้ำจิ้มรสเด็ดและน้ำซุปเช็งๆ</p>
+            <div class="price-tag" id="food-price">50 - 60 บาท</div>
+            <button id="random-btn" onclick="randomFood()">สุ่มเมนูอาหาร</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
